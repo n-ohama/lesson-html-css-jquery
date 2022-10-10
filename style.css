@@ -386,3 +386,48 @@ header {
 .news-content:hover .news-title > a {
   color: #2da690;
 }
+
+.about {
+  padding: 120px 0;
+  background-image: url("./image/bg02.jpeg");
+}
+
+.about-content-inner-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-content-inner-wrap img {
+  width: 45%;
+  object-fit: cover;
+}
+
+.about-content-inner-wrap ul {
+  width: 45%;
+  display: inline-block;
+}
+
+.about-content-inner-wrap ul li {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-head {
+  border-bottom: 1px solid #2da690;
+  width: 17%;
+  padding: 1em 0;
+  margin-right: 3px;
+}
+
+.about-data {
+  width: 80%;
+  color: #0000008a;
+  border-bottom: 1px solid gainsboro;
+  padding: 1em 0;
+}
+
+.map-link {
+  color: #2da690;
+  display: block;
+  margin-top: 5px;
+}
