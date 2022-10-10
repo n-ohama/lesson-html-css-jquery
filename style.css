@@ -113,7 +113,8 @@ h1 > span {
   margin-left: 5px;
 }
 
-.fa-circle-arrow-right {
+.fa-circle-arrow-right,
+.fa-arrow-right {
   color: #2da690;
 }
 
@@ -430,4 +431,58 @@ header {
   color: #2da690;
   display: block;
   margin-top: 5px;
+}
+
+.recruit {
+  padding: 120px 0;
+}
+
+.recruit h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.recruit h2 span {
+  color: #2da690;
+}
+
+.recruit-jobs {
+  background-color: white;
+  padding: 40px 0;
+}
+
+.recruit-jobs > p {
+  text-align: center;
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+
+.jobs {
+  display: flex;
+  justify-content: center;
+}
+
+.jobs a {
+  text-align: center;
+  width: 20%;
+  padding: 15px 0;
+  margin: 0 10px;
+  border: 1px solid gainsboro;
+  font-weight: bold;
+}
+
+.jobs a:nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+.jobs a:nth-child(3) {
+  transition-delay: 0.4s;
+}
+
+.jobs a:hover {
+  background-color: #2da690;
+  color: white;
+  transition: 0.1s;
 }
