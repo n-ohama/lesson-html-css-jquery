@@ -10,6 +10,8 @@ $(function () {
     $(".img-wrap img:first-child").appendTo(".img-wrap");
   }, 4000);
 
+  let scroll = 0;
+
   $(window).scroll(function () {
     $(".fadein-scroll").each(function () {
       const elemPos = $(this).offset().top,

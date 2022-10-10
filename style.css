@@ -112,6 +112,10 @@ h1 > span {
   margin-left: 5px;
 }
 
+.fa-circle-arrow-right {
+  color: #2da690;
+}
+
 /* 上は無視してください */
 
 .nav-02 {
@@ -132,6 +136,10 @@ h1 > span {
   transition: all 1s;
 }
 
+.fadein-from-left {
+  transform: translate(-50px, 0);
+}
+
 .fadein-from-down {
   transform: translate(0, 50px);
 }
@@ -149,6 +157,10 @@ h1 > span {
 .service-item1 a,
 .service-item3 a {
   left: -5vw;
+}
+
+.service-item2 a {
+  right: -5vw;
 }
 
 header {
@@ -263,4 +275,32 @@ header {
   opacity: 1;
   transform: translate(15px, 0);
   transition: 0.2s;
+}
+
+.service-item2 {
+  flex-direction: row-reverse;
+}
+
+.service-item2 a img {
+  width: auto;
+  height: 30%;
+  padding: 5% 0;
+}
+
+.service-item3 a img {
+  width: auto;
+  height: 30%;
+}
+
+.other-wrap {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.other {
+  margin: 56px 0 0 auto;
+  display: block;
+  text-align: right;
+  font-weight: bold;
 }
