@@ -1,0 +1,266 @@
+/* reset */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+address,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+img,
+form,
+table,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: left;
+  list-style-type: none;
+  border-collapse: collapse;
+}
+
+textarea {
+  font-size: 100%;
+  vertical-align: middle;
+}
+img {
+  border-style: none;
+  display: block;
+}
+hr {
+  display: none;
+}
+em {
+  font-style: normal;
+}
+input {
+  line-height: auto;
+  vertical-align: middle;
+}
+strong.more {
+  color: #c30;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
+    Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  /* ↓背景グリッド↓ */
+  background-image: linear-gradient(
+      0deg,
+      transparent calc(100% - 1px),
+      #f0f0f0 calc(100% - 1px)
+    ),
+    linear-gradient(
+      90deg,
+      transparent calc(100% - 1px),
+      #f0f0f0 calc(100% - 1px)
+    );
+  background-size: 23px 23px;
+  background-repeat: repeat;
+  background-position: center center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 56px;
+  text-align: center;
+}
+
+h1 > span {
+  border-top: 2px solid #2da690;
+  padding: 20px;
+  text-align: center;
+}
+
+.fa-solid,
+.fas {
+  font-weight: 900;
+}
+
+.fa-arrow-up-right-from-square {
+  font-size: 1.2em;
+  color: #2da690;
+  margin-left: 5px;
+}
+
+/* 上は無視してください */
+
+.nav-02 {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+}
+
+.link {
+  color: #000000de;
+  cursor: pointer;
+}
+
+.fadein-scroll {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.fadein-from-down {
+  transform: translate(0, 50px);
+}
+
+.fadein-active01 {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.fadein-active02 {
+  opacity: 0.9;
+  transform: translate(0, 0);
+}
+
+.service-item1 a,
+.service-item3 a {
+  left: -5vw;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+  height: 120px;
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transition: 1s;
+  transition-delay: 1s;
+  transform: translate(0, -50px);
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.nav-01 ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-01 ul li {
+  padding-right: 20px;
+}
+
+.img-wrap {
+  width: 100%;
+  height: 100vh;
+}
+
+.img-wrap img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+}
+
+.catch-copy {
+  position: absolute;
+  bottom: 0;
+  transition: 1s;
+  padding: 40px;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.catch-copy strong {
+  color: #fce244;
+}
+
+.service {
+  padding: 100px 0;
+}
+
+.service li {
+  height: 25vw;
+  min-height: 340px;
+  margin-bottom: 56px;
+  display: flex;
+  align-items: center;
+}
+
+.service li img {
+  object-fit: cover;
+  width: 50%;
+  height: 25vw;
+}
+
+.service li a {
+  position: relative;
+  width: 50%;
+  max-width: 600px;
+  height: 340px;
+  padding: 40px;
+  background-color: white;
+  transition-delay: 0.38s;
+}
+
+.service-item1 a img {
+  width: auto;
+  height: 30%;
+}
+
+.service .catch {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.service .sub {
+  color: #0000008a;
+}
+
+.service .fa-arrow-up-right-from-square {
+  display: block;
+  margin-top: 20px;
+  opacity: 0.2;
+}
+
+.service a:hover .fa-arrow-up-right-from-square {
+  opacity: 1;
+  transform: translate(15px, 0);
+  transition: 0.2s;
+}
