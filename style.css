@@ -316,6 +316,16 @@ header {
   font-weight: bold;
 }
 
+.other:hover {
+  color: #2da690;
+  transition: 0.1s;
+}
+
+.other:hover i {
+  transform: translate(7px, 0);
+  transition: 0.3s;
+}
+
 .vision {
   background-image: url("./image/bg01.jpeg");
   object-fit: cover;
