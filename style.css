@@ -102,6 +102,11 @@ h1 > span {
   text-align: center;
 }
 
+footer {
+  background-color: #4d4d4d;
+  width: 100%;
+}
+
 .fa-solid,
 .fas {
   font-weight: 900;
@@ -485,4 +490,58 @@ header {
   background-color: #2da690;
   color: white;
   transition: 0.1s;
+}
+
+footer .wrap {
+  padding: 50px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left img {
+  width: 80%;
+  max-width: 200px;
+}
+
+.footer-left p {
+  color: #ffffff8a;
+  font-size: 0.9em;
+  margin: 20px 0;
+}
+
+.footer-left small {
+  color: #ffffff57;
+}
+
+.footer-right nav {
+  color: #ffffffde;
+  margin-bottom: 30px;
+}
+
+.footer-right nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-right nav li {
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+.footer-service {
+  display: flex;
+}
+
+.footer-service a {
+  color: white;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: 1px solid gray;
+  margin-left: 20px;
+}
+
+.footer-service a:hover {
+  background-color: #2da690;
+  transition: 0.15s;
 }
